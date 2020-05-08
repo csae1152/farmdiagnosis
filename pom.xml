@@ -8,6 +8,11 @@
     <artifactId>farmdiagnosis</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
+    </properties>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/io.vertx/vertx-core -->
         <dependency>
@@ -15,8 +20,8 @@
             <artifactId>vertx-core</artifactId>
             <version>3.9.0</version>
         </dependency>
-    <!-- https://mvnrepository.com/artifact/io.vertx/vertx-web -->
-    <dependency>
+        <!-- https://mvnrepository.com/artifact/io.vertx/vertx-web -->
+        <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web</artifactId>
         <version>3.9.0</version>
