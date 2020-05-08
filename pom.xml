@@ -29,6 +29,13 @@
             <version>3.9.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.twitter/finagle-http -->
+        <dependency>
+            <groupId>com.twitter</groupId>
+            <artifactId>finagle-http_2.13</artifactId>
+            <version>20.4.1</version>
+        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/io.reactivex/rxjava -->
         <dependency>
