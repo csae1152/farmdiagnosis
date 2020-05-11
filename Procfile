@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dhttp.port=$PORT -jar farmdiagnosis/target/farmdiagnosis-*-fat.jar
+web: java $JAVA_OPTS -Dhttp.port=$PORT -jar target/farmdiagnosis-production.jar
