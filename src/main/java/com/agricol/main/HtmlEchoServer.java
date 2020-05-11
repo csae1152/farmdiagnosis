@@ -1,3 +1,5 @@
+package com.agricol.main;
+
 import io.vertx.core.AbstractVerticle;
 
 /**
