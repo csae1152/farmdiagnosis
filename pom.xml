@@ -4,13 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.agri</groupId>
+    <groupId>com.agricol</groupId>
     <artifactId>farmdiagnosis</artifactId>
     <version>production</version>
 
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
+        <!-- the main verticle -->
+        <main.verticle>com.agricol.main.HtmlEchoServer</main.verticle>
+
     </properties>
 
     <build>
